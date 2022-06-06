@@ -119,7 +119,6 @@
     -- many to one relationship between film_actor and actor
     Ref: "film_actor"."actor_id" > "actor"."actor_id"
   
-<iframe 
-	height="400" width="100%"
-	src='https://dbdiagram.io/d/629e608a54ce2635276e3416'> 
+<iframe height="400" width="100%"
+src='[https://dbdiagram.io/embed/5fe1cb6e9a6c525a03bbf839](https://dbdiagram.io/d/629e608a54ce2635276e3416)'>
 </iframe>
