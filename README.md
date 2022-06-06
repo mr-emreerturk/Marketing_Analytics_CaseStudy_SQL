@@ -1,6 +1,14 @@
 # Marketing Analytics Case Study
 ## Introduction
+"Personalized customer emails based off marketing analytics is a winning formula for many digital companies, and this is exactly the initiative that the leadership team at DVD Rental Co has decided to tackle!
 
+We have been asked to support the customer analytics team at DVD Rental Co who have been tasked with generating the necessary data points required to populate specific parts of this first-ever customer email campaign.
+
+Throughout this marketing case study we will cover many SQL data manipulation and analysis techniques. The aim is to further extend your SQL knowledge base and also expose you to some scenarios where you can apply some neat tricks that I’ve picked up over the years!"
+
+(This case study is part of [#datawithdanny](datawithdanny.com) internship)
+### The newsletter content
+![Newsletter](pictures/Newsletter.jpg)
 ## Requirements
 
  1. Identify top 2 categories for each customer based off their past
@@ -15,7 +23,11 @@
     -   What proportion of each customer’s total films watched does this count make?
 5.  Identify each customer’s favorite actor and film count, then recommend up to three more unwatched films starring the same actor
 
-## ERD
+## ERD Modeling
+### ERD
+![ERD](pictures/Marketing_analytics.png)
+
+### ERD via [dbdiagram](dbdiagram.io)
 
     Table "rental" {
       "rental_id" integer [not null]
@@ -118,5 +130,3 @@
     
     -- many to one relationship between film_actor and actor
     Ref: "film_actor"."actor_id" > "actor"."actor_id"
-  
-<iframe width="560" height="315" src='https://dbdiagram.io/embed/629e608a54ce2635276e3416'> </iframe>
