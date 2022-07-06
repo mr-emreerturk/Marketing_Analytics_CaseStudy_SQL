@@ -6,7 +6,6 @@ We have been asked to support the customer analytics team at DVD Rental Co who h
 
 Throughout this marketing case study we will cover many SQL data manipulation and analysis techniques. The aim is to further extend your SQL knowledge base and also expose you to some scenarios where you can apply some neat tricks that I’ve picked up over the years!"
 
-(This case study is part of [#datawithdanny](datawithdanny.com) internship)
 ### The newsletter content
 ![Newsletter](pictures/Newsletter.jpg)
 ## Requirements
